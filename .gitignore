@@ -205,3 +205,8 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Ignore large generated JSON files used by preprocessing pipelines (keep config JSONs)
+# - preprocess/transition_data contains intermediate datasets that shouldn't be committed
+/preprocess/transition_data/*.json
+/data/*.json

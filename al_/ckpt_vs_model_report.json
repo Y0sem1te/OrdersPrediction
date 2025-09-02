@@ -1,0 +1,62 @@
+{
+  "checkpoint_path": "E:\\AI\\ai_cabinets-dev\\ai_peigui\\weights\\final_model.pt",
+  "fbas_vocab_size_used": 214,
+  "ckpt_keys": {
+    "fbas_embedding.weight": [
+      214,
+      8
+    ],
+    "layers.0.weight": [
+      64,
+      16
+    ],
+    "layers.0.bias": [
+      64
+    ],
+    "layers.3.weight": [
+      32,
+      64
+    ],
+    "layers.3.bias": [
+      32
+    ],
+    "layers.5.weight": [
+      1,
+      32
+    ],
+    "layers.5.bias": [
+      1
+    ]
+  },
+  "model_keys": {
+    "fbas_embedding.weight": [
+      214,
+      8
+    ],
+    "layers.0.weight": [
+      64,
+      16
+    ],
+    "layers.0.bias": [
+      64
+    ],
+    "layers.3.weight": [
+      32,
+      64
+    ],
+    "layers.3.bias": [
+      32
+    ],
+    "layers.5.weight": [
+      1,
+      32
+    ],
+    "layers.5.bias": [
+      1
+    ]
+  },
+  "matches_count": 7,
+  "mismatches": [],
+  "missing_in_ckpt": [],
+  "unexpected_in_ckpt": []
+}

@@ -212,3 +212,7 @@ __marimo__/
 /data/*.json
 # Ignore checkpoint weights directory
 /weights/
+# 显式忽略大文件（防止误提交）
+preprocess/transition_data/output-FBAfilter-delete.json
+preprocess/transition_data/output.json
+preprocess/transition_data/new_costs.json

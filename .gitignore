@@ -210,3 +210,5 @@ __marimo__/
 # - preprocess/transition_data contains intermediate datasets that shouldn't be committed
 /preprocess/transition_data/*.json
 /data/*.json
+# Ignore checkpoint weights directory
+/weights/
